@@ -167,8 +167,9 @@ img.social{
 @media screen and (max-width: 991px){
 
 .header{
-  background-position: 30% 10%;
-  background-repeat: no-repeat;
+  background-image: url("../img/header.jpg");
+  background-position: 0% 0%;
+  border-bottom-left-radius: 50% 20%;
 }
 
 .menu{
