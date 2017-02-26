@@ -1,0 +1,183 @@
+.container-fluid{
+  font-family: 'Raleway', sans-serif;
+  padding: 0px;
+}
+
+.alert{
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.header{
+  background-image: url("../img/header.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-position: 50% 60%;
+  height: 500px;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+.menu{
+  margin-top: 20px;
+}
+
+.menu a .col-md-1{
+  font-weight: bold;
+  color: #000;
+  margin-right: 25px;
+  padding: 0px;
+  width: auto;
+}
+
+.menu a .col-md-1:hover{
+  text-decoration: underline;
+}
+
+h1{
+  margin: 0px;
+}
+
+.title{
+  text-align: center;
+  padding-top: 180px;
+  color: #444;
+  font-weight:300;
+  letter-spacing: 5px;
+}
+
+h2{
+  margin: 0px;
+}
+
+.description{
+  padding-top: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.secondary-title{
+  text-align: center;
+  color: #444;
+  font-weight:300;
+  letter-spacing: 5px;
+  padding-top: 50px;
+}
+
+
+.logo{
+  height: auto;
+  padding-top: 130px;
+}
+
+.logo li{
+  font-size: 20px;
+  list-style: none;
+}
+
+.computer{
+  padding-top: 50px;
+  height: auto;
+}
+
+.second-margin{
+  padding-top: 120px;
+}
+
+.logo p{
+  margin-top: 10px;
+}
+
+.service-description{
+  padding-top: 5px;
+  color: #444;
+  text-align: justify;
+}
+
+.secondary-service{
+  margin-top: -50px;
+}
+
+.client{
+  padding-top: 50px;
+  height: 100px;
+}
+
+.w60{
+  width: 60%;
+}
+.director{
+  padding-top: 30px;
+}
+
+.director-description{
+  margin-top: -15px;
+}
+
+.director-speech{
+  text-align: center;
+  font-weight: bold;
+  color: #444;
+  font-style: italic;
+}
+
+.footer-helper{
+  margin-top: 0px;
+  height: 200px;
+  background-color: white;
+  border-top-right-radius: 49% 70%;
+  transform: rotate(180deg);
+  margin-bottom: -130px;
+}
+
+footer{
+  height: auto;
+  background-color: #222;
+}
+
+footer .content{
+  margin-top: 150px;
+}
+
+footer .content p{
+  margin-top: 60px;
+  color: white;
+  font-size: 25px;
+}
+
+img.social{
+  margin-top: 20px;
+  width: 24px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.me{
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.me2{
+  color: #AAA;
+  text-align: center;
+}
+
+@media screen and (max-width: 991px){
+
+.header{
+  background-position: 50% 60%;
+}
+
+.menu{
+  margin: 0px;
+  padding-top: 20px;
+}
+
+.title{
+  margin-top: -40px;
+}
+
+
+}
